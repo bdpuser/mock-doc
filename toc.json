@@ -1,28 +1,28 @@
 [
   {
     "text": "Basic Features",
-    "link": "/example1.md",
+    "link": "/BasicFeatures.md",
     "links": [
-      "/example2.md",
-      "/example2/example3.md"
+      "/JavascriptExample/JavascriptExample.md",
+      "/JavascriptExample/example3.md"
     ],
     "children": [
       {
         "text": "Javascript",
-        "link": "/example2.md",
-        "links": ["/example2/example3.md"],
+        "link": "/JavascriptExample/JavascriptExample.md",
+        "links": ["/JavascriptExample/YmalExample.md"],
         "children": [
           {
             "text": "YAML",
-            "link": "/example3.md",
+            "link": "/JavascriptExample/YmalExample.md",
             "links": [],
             "children": []
           }
         ]
       },
       {
-        "text": "Testing",
-        "link": "/example4.md",
+        "text": "Testing child not in folder",
+        "link": "/Testing.md",
         "links": [],
         "children": []
       }
@@ -30,20 +30,20 @@
   },
   {
     "text": "Advanced Features",
-    "link": "/example5.md",
+    "link": "/AdvancedFeatures/AdvancedFeatures.md",
     "links": [
-      "/example5/tableExample.md",
-      "/example5/tableExample/anchorExample.md"
+      "/AdvancedFeatures/TableExample/TableExample.md",
+      "/AdvancedFeatures/TableExample/AnchorExample.md"
     ],
     "children": [
       {
         "text": "Tables",
-        "link": "/example5/tableExample.md",
-        "links": ["/example5/tableExample/anchorExample.md"],
+        "link": "/AdvancedFeatures/TableExample/TableExample.md",
+        "links": ["/AdvancedFeatures/TableExample/AnchorExample.md"],
         "children": [
           {
             "text": "Anchors",
-            "link": "/example5/tableExample/anchorExample.md",
+            "link": "/AdvancedFeatures/TableExample/AnchorExample.md",
             "links": [],
             "children": []
           }
@@ -51,7 +51,7 @@
       },
       {
         "text": "YAML again",
-        "link": "/example5/example4.md",
+        "link": "/JavascriptExample/YmalExample.md",
         "links": [],
         "children": []
       }
@@ -59,18 +59,18 @@
   },
   {
     "text": "Other Links",
-    "link": "/products",
-    "links": ["/products/lawn-mower", "https://www.google.com"],
+    "link": "/Products/",
+    "links": ["/Products/LawnMower.md", "https://www.google.com"],
     "children": [
       {
         "text": "someproducts",
-        "links": ["/products/lawn-mower"],
+        "links": ["/Products/LawnMower.md"],
         "children": [
           {
             "text": "Lawn Mower",
-            "link": "/products/lawn-mower",
+            "link": "/Products/LawnMower.md",
             "links": [],
-            "children": { "text": "Lawn Mower", "link": "/products/lawn-mower" }
+            "children": { "text": "Lawn Mower", "link": "/Products/LawnMower.md" }
           }
         ]
       },
