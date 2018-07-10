@@ -1,0 +1,91 @@
+[
+  {
+    "text": "Basic Features",
+    "link": "/example1.md",
+    "links": [
+      "/example2.md",
+      "/example2/example3.md"
+    ],
+    "children": [
+      {
+        "text": "Javascript",
+        "link": "/example2.md",
+        "links": ["/example2/example3.md"],
+        "children": [
+          {
+            "text": "YAML",
+            "link": "/example3.md",
+            "links": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "text": "Testing",
+        "link": "/example4.md",
+        "links": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "text": "Advanced Features",
+    "link": "/example5.md",
+    "links": [
+      "/example5/tableExample.md",
+      "/example5/tableExample/anchorExample.md"
+    ],
+    "children": [
+      {
+        "text": "Tables",
+        "link": "/example5/tableExample.md",
+        "links": ["/example5/tableExample/anchorExample.md"],
+        "children": [
+          {
+            "text": "Anchors",
+            "link": "/example5/tableExample/anchorExample.md",
+            "links": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "text": "YAML again",
+        "link": "/example5/example4.md",
+        "links": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "text": "Other Links",
+    "link": "/products",
+    "links": ["/products/lawn-mower", "https://www.google.com"],
+    "children": [
+      {
+        "text": "someproducts",
+        "links": ["/products/lawn-mower"],
+        "children": [
+          {
+            "text": "Lawn Mower",
+            "link": "/products/lawn-mower",
+            "links": [],
+            "children": { "text": "Lawn Mower", "link": "/products/lawn-mower" }
+          }
+        ]
+      },
+      {
+        "text": "external links",
+        "links": ["https://www.google.com"],
+        "children": [
+          {
+            "text": "Google.com",
+            "link": "https://www.google.com",
+            "links": [],
+            "children": { "text": "Google.com", "link": "https://www.google.com" }
+          }
+        ]
+      }
+    ]
+  }
+]
