@@ -1,4 +1,4 @@
-#HTML
+# HTML
 Uniquely target goal-oriented process improvements via corporate imperatives. Rapidiously maintain.
 ---
 ```html
@@ -17,13 +17,13 @@ Uniquely target goal-oriented process improvements via corporate imperatives. Ra
     </aside>
   </div>
  ```
- 
+
  ```javascript
 const getStuffDone = (idx) => {
     let i = 0;
     let something = idx || 0;
     if(i > idx) {
-        return;   
+        return;
     }
     return false;
 }

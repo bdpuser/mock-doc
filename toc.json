@@ -4,7 +4,8 @@
     "link": "/BasicFeatures.md",
     "links": [
       "/JavascriptExample/JavascriptExample.md",
-      "/JavascriptExample/example3.md"
+      "/JavascriptExample/YmalExample.md",
+      "/Testing.md"
     ],
     "children": [
       {
@@ -33,7 +34,8 @@
     "link": "/AdvancedFeatures/AdvancedFeatures.md",
     "links": [
       "/AdvancedFeatures/TableExample/TableExample.md",
-      "/AdvancedFeatures/TableExample/AnchorExample.md"
+      "/AdvancedFeatures/TableExample/AnchorExample.md",
+      "/JavascriptExample/YmalExample.md"
     ],
     "children": [
       {
@@ -59,7 +61,7 @@
   },
   {
     "text": "Other Links",
-    "link": "/Products/",
+    "link": "/Products/LawnMower.md",
     "links": ["/Products/LawnMower.md", "https://www.google.com"],
     "children": [
       {
