@@ -14,7 +14,7 @@
                 "children": [{
                     "text": "YAML",
                     "link": "/JavascriptExample/YmalExample.md",
-                    "links": [],
+                    "links": ["/JavascriptExample/Troubleshooting.md"],
                     "children": [{
                         "text": "Troubleshooting",
                         "link": "/JavascriptExample/Troubleshooting.md",
