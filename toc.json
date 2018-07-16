@@ -10,7 +10,7 @@
         "children": [{
                 "text": "Javascript",
                 "link": "/JavascriptExample/JavascriptExample.md",
-                "links": ["/JavascriptExample/YmalExample.md"],
+                "links": ["/JavascriptExample/YmalExample.md", "/JavascriptExample/Troubleshooting.md"],
                 "children": [{
                     "text": "YAML",
                     "link": "/JavascriptExample/YmalExample.md",
