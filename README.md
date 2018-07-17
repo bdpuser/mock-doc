@@ -1,25 +1,12 @@
-# Overview
+# Mock doc
 
-## Getting Started
-This is how you **get _ _started_ _**. *Competently enable effective content whereas enterprise mindshare. Dramatically reinvent 24/7 methods of empowerment with exceptional markets. Seamlessly administrate world-class vortals whereas.*
-~~Holisticly evolve top-line potentialities via.~~
+> A set of documentation that represents what we expect from services hoping to use developer-center-docs to publish their docs.
 
-### Some more important information
-> Follow your heart and your gut, and things usually work out.
-- **Ken Korth**
+This README.md is not the docs that would be generated. This is purely for the purposes of being seen on github and then we could link to [docs/README.md](docs/README.md) for the full docs.
 
-#### Installation
-~~~
+## Getting started
 
-npm install
-yarn start
-~~~
-
-#### Some other header
-
-Interactively customize resource maximizing alignments rather.
-
-##### A final header
-
-Uniquely streamline interoperable infomediaries with scalable vortals. Phosfluorescently actualize extensible deliverables vis-a-vis an expanded array.
-
+1. Git clone this repo
+1. cd into the repo
+1. Run npx spscommerce/developer-center-docs
+1. You should see the results of verify.
