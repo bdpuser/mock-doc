@@ -52,7 +52,6 @@
     },
     {
         "text": "Other Links",
-        "link": "/Products/LawnMower.md",
         "links": ["/Products/LawnMower.md", "https://www.google.com"],
         "children": [{
                 "text": "someproducts",
