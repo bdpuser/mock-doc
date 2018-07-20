@@ -1,0 +1,29 @@
+schema_version: v1.1
+
+service:
+  id: a7b21ed0-4c83-495c-88dc-8cf124e1aa48
+  name: Mock Doc
+  type: API
+  state: active
+  access: internal
+  reuse: global
+  data_class: public
+  xrefs: []
+  configurations: []
+  maintainers:
+  - webframeworkteam@spscommerce.com
+
+global:
+  owner: webframeworkteam@spscommerce.com
+  unit: web
+  product: developer-center
+  subproduct: mock-doc
+  environments:
+  - name: dev
+    region: us-east-1
+    account: 056684691971 
+
+deploy: 
+  - name: mock-doc_static_assets_example_0 # a logical name for the deployment. Replace if you want!
+    deploy_type: static_assets
+    source_dir: dist/ # the relative path to the static assets dir from the .bdp file
